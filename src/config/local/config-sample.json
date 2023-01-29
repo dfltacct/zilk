@@ -1,0 +1,4 @@
+{
+  "env": "local",
+  "zilk_backend_url": "http://localhost:8087"
+}

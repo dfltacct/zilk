@@ -1,0 +1,6 @@
+button {
+  &[mat-flat-button],
+  &[mat-stroked-button] {
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+mat-slide-toggle.mat-slide-toggle {
+  .mat-slide-toggle-thumb-container {
+    top: 3px;
+    left: 4px;
+  }
+
+  .mat-slide-toggle-bar {
+    height: 26px;
+    border-radius: 20px;
+    width: 44px;
+  }
+
+  &.mat-checked {
+    .mat-slide-toggle-thumb {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white !important;
+
+      &::before {
+        content: "done";
+        font-family: "Material Icons";
+      }
+    }
+
+    &[color="primary"] {
+      .mat-slide-toggle-thumb {
+        &::before {
+          color: #3366ff;
+        }
+      }
+      .mat-slide-toggle-bar {
+        background-color: #01338d;
+      }
+    }
+  }
+}

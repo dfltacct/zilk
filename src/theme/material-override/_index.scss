@@ -1,0 +1,9 @@
+/*
+ This folder contains overrides to Angular Material components.
+ Overriding Angular Material is not supported, but we can't either get a deep
+ level in customization without this. Consider this when updating Angular
+ Material version because selectors can break.
+ */
+@use "./mat-button";
+@use "./mat-slide-toggle";
+@use "./mat-dialog-container";
