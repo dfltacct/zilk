@@ -3,7 +3,6 @@ import { filter, map, Subject, takeUntil, tap } from 'rxjs';
 import * as _ from 'lodash-es';
 import { DataService } from 'src/app/core/services/data.service';
 import { AuthenticationService } from 'src/app/core/services/authentication.service';
-import { ConsoleLogger } from 'src/app/core/shared/console-logger';
 
 @Component({
   selector: 'cjk-zilk',
@@ -26,7 +25,6 @@ export class ZilkComponent implements OnInit, OnDestroy {
 
 
   public ngOnInit(): void {
-    ConsoleLogger.debug('oninit');
   }
 
 

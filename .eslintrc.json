@@ -11,8 +11,8 @@
       "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "plugin:@angular-eslint/recommended",
+        // "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        // "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
@@ -27,24 +27,24 @@
         "@typescript-eslint/no-unnecessary-type-assertion": 0,
         "@typescript-eslint/no-unused-vars": 0,
         "@typescript-eslint/no-empty-function": 0,
-        "@typescript-eslint/no-floating-promises": 0,
-        "@typescript-eslint/semi": 2,
-        "@angular-eslint/directive-selector": [
-          "error",
-          {
-            "type": "attribute",
-            "prefix": "cjk-zilk",
-            "style": "camelCase"
-          }
-        ],
-        "@angular-eslint/component-selector": [
-          "error",
-          {
-            "type": "element",
-            "prefix": "cjk-zilk",
-            "style": "kebab-case"
-          }
-        ]
+        "@typescript-eslint/no-floating-promises": 0
+        // "@typescript-eslint/semi": 2
+        // "@angular-eslint/directive-selector": [
+        //   "error",
+        //   {
+        //     "type": "attribute",
+        //     "prefix": "cjk-zilk",
+        //     "style": "camelCase"
+        //   }
+        // ],
+        // "@angular-eslint/component-selector": [
+        //   "error",
+        //   {
+        //     "type": "element",
+        //     "prefix": "cjk-zilk",
+        //     "style": "kebab-case"
+        //   }
+        // ]
       }
     },
     {
