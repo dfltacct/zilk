@@ -7,12 +7,13 @@
 /bazel-out
 
 # Local development configuration files
-/src/config/local/config.json
+# /src/config/local/config.json
 
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
+*.log
 
 # IDEs and editors
 .idea/

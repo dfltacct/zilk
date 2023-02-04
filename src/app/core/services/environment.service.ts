@@ -7,7 +7,8 @@ import { environment } from 'src/environments/environment';
 export class EnvironmentService {
   private config: any = {};
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+  }
 
   public loadAppConfig() {
     return this.http.get('/config/config.json').pipe(
@@ -23,19 +24,12 @@ export class EnvironmentService {
     return this.config.env;
   }
 
-  public getZilkBackendUrl(): string {
-    return this.config.zilk_backend_url;
-  }
-
   public isProduction(): boolean {
     return environment.production;
   }
 
-  public getPortalScriptHost(): string {
-    return this.config.portal_script_host;
+  public getZilkBackendUrl(): string {
+    return this.config.zilk_backend_url;
   }
 
-  public getPortalHost(): string {
-    return this.config.portal_host;
-  }
 }

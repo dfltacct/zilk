@@ -1,0 +1,50 @@
+.zilk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  height: 100%;
+  
+  .winner {
+    text-align: center;
+
+    .congrats {
+      font-size: 36px;
+      color: red;
+      padding: 20px 0;
+    }
+    
+    .reward {
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    
+    .location {
+      font-size: 24px;
+      color: blue;
+      padding-bottom: 20px;
+    }
+    
+    .expires {
+      font-size: 14px;
+      padding-bottom: 20px;
+    }
+  }
+  
+
+
+  .debug {
+    h3 {
+      text-align: center;  
+    }
+    
+    .buttons{
+      margin-top: 20px;
+      width: 400px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+  }
+
+}
